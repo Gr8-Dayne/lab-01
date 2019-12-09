@@ -24,7 +24,7 @@ body, html {
   box-sizing: border-box;
 }
 
-@media(min-width: 960px) {
+@media screen and (min-width: 961px) and (max-width: 1880px) {
   body, html {
     height: 100%;
     margin: auto;
@@ -32,3 +32,30 @@ body, html {
     width: 960px;
   }
 }
+
+@media screen and (max-width: 960px) {
+  body, html {
+    height: 100%;
+    margin: auto;
+    padding:0;
+    width: 960px;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  body, html {
+    height: 100%;
+    margin: auto;
+    padding:0;
+    width: 960px;
+  }
+}
+
+/* @media(min-width: 960px) {
+  body, html {
+    height: 100%;
+    margin: auto;
+    padding:0;
+    width: 960px;
+  }
+} */

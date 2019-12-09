@@ -1,88 +1,6 @@
 
-section {
-  overflow: auto;
-  margin: 0 auto;
-  display: table;
-}
-
-div {
-  margin: 0;
-  text-align: center;
-}
-
-#alpha{
-  margin-top: 20px;
-  width: 480px;
-  height: 75px;
-  line-height: 75px;
-  background-color: aqua;
-}
-
-#bravo{
-  width: 480px;
-  height: 150px;
-  line-height: 150px;
-  background-color: aquamarine;
-}
-
-#charlie{
-  width: 480px;
-  height: 125px;
-  line-height: 125px;
-  background-color: rgb(127, 214, 255);
-}
-
-#delta{
-  width: 480px;
-  height: 125px;
-  line-height: 125px;
-  background-color: blue;
-}
-
-#echo{
-  display: inline-block;
-  width: 240px;
-  height: 250px;
-  line-height: 250px;
-  background-color: rgb(138, 248, 248);
-}
-
-#foxtrot{
-  display: inline-block;
-  width: 240px;
-  height: 250px;
-  line-height: 250px;
-  background-color: rgb(1, 173, 173);
-}
-
-#golf{
-  display: inline-block;
-  width: 240px;
-  height: 250px;
-  line-height: 250px;
-  background-color: rgb(17, 224, 128);
-}
-
-#hotel{
-  display: inline-block;
-  width: 240px;
-  height: 250px;
-  line-height: 250px;
-  background-color: rgba(0, 255, 255, 0.253);
-}
-
-#india{
-  width: 480px;
-  height: 80px;
-  line-height: 80px;
-  margin-bottom: 20px;
-  background-color: rgba(0, 136, 255, 0.575);
-}
-
-
-/* On Desktop, float the divs in the section and center them */
-@media(min-width: 960px) {
-
+/* Desktop view */
+@media screen and (min-width: 961px) and (max-width: 1880px) {
   section {
     display:table;
   }
@@ -166,5 +84,173 @@ div {
     margin-bottom: 20px;
     background-color: rgb(255, 230, 0);
     float: left;
+  }
+
+}
+
+
+/* Tablet view */
+@media screen and (max-width: 960px) {
+  section {
+    overflow: auto;
+    margin: 0 auto;
+    display: table;
+  }
+
+  div {
+    margin: 0;
+    text-align: center;
+  }
+
+  #alpha{
+    margin-top: 20px;
+    width: 480px;
+    height: 75px;
+    line-height: 75px;
+    background-color: aqua;
+  }
+
+  #bravo{
+    width: 480px;
+    height: 150px;
+    line-height: 150px;
+    background-color: aquamarine;
+  }
+
+  #charlie{
+    width: 480px;
+    height: 125px;
+    line-height: 125px;
+    background-color: rgb(127, 214, 255);
+  }
+
+  #delta{
+    width: 480px;
+    height: 125px;
+    line-height: 125px;
+    background-color: blue;
+  }
+
+  #echo{
+    display: inline-block;
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    background-color: rgb(138, 248, 248);
+  }
+
+  #foxtrot{
+    display: inline-block;
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    background-color: rgb(1, 173, 173);
+  }
+
+  #golf{
+    display: inline-block;
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    background-color: rgb(17, 224, 128);
+  }
+
+  #hotel{
+    display: inline-block;
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    background-color: rgba(0, 255, 255, 0.253);
+  }
+
+  #india{
+    width: 480px;
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 136, 255, 0.575);
+  }
+}
+
+/* Mobile view */
+@media screen and (max-width: 736px) {
+  section {
+    overflow: auto;
+    margin: 0 auto;
+    display: table;
+  }
+
+  div {
+    margin: 0;
+    text-align: center;
+  }
+
+  #alpha{
+    margin-top: 20px;
+    width: 480px;
+    height: 75px;
+    line-height: 75px;
+    background-color: aqua;
+  }
+
+  #bravo{
+    width: 480px;
+    height: 150px;
+    line-height: 150px;
+    background-color: aquamarine;
+  }
+
+  #charlie{
+    width: 480px;
+    height: 125px;
+    line-height: 125px;
+    background-color: rgb(127, 214, 255);
+  }
+
+  #delta{
+    width: 480px;
+    height: 125px;
+    line-height: 125px;
+    background-color: blue;
+  }
+
+  #echo{
+    display: inline-block;
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    background-color: rgb(138, 248, 248);
+  }
+
+  #foxtrot{
+    display: inline-block;
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    background-color: rgb(1, 173, 173);
+  }
+
+  #golf{
+    display: inline-block;
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    background-color: rgb(17, 224, 128);
+  }
+
+  #hotel{
+    display: inline-block;
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    background-color: rgba(0, 255, 255, 0.253);
+  }
+
+  #india{
+    width: 480px;
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 136, 255, 0.575);
   }
 }
