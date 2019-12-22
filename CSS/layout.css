@@ -1,229 +1,159 @@
-
-/* Desktop view */
-@media (min-width: 960px){
-  section {
-    display:table;
-  }
-
-  div {
-    margin: 0;
-  }
-
-  #alpha{
-    margin-top: 20px;
-    width: 960px;
-    height: 100px;
-    line-height: 100px;
-  }
-  
-  #bravo{
-    width: 200px;
-    height: 600px;
-    line-height: 600px;
-    float: left;
-  }
-  
-  #charlie{
-    width: 380px;
-    height: 200px;
-    line-height: 200px;
-    float: left;
-  }
-  
-  #delta{
-    width: 380px;
-    height: 200px;
-    line-height: 200px;
-    float: left;
-  }
-  
-  #echo{
-    display: inline-block;
-    width: 190px;
-    height: 250px;
-    line-height: 250px;
-    float: left;
-  }
-  
-  #foxtrot{
-    display: inline-block;
-    width: 190px;
-    height: 250px;
-    line-height: 250px;
-    float: left;
-  }
-  
-  #golf{
-    display: inline-block;
-    width: 190px;
-    height: 250px;
-    line-height: 250px;
-    float: left;
-  }
-  
-  #hotel{
-    display: inline-block;
-    width: 190px;
-    height: 250px;
-    line-height: 250px;
-    float: left;
-  }
-  
-  #india{
-    width: 760px;
-    height: 150px;
-    line-height: 150px;
-    margin-bottom: 20px;
-    float: left;
-  }
-
+div {
+  height: auto;
+  margin: 0;
+  width: 100%;
 }
-
-
-/* Tablet view */
-@media (max-width: 768px) {
-  section {
-    overflow: auto;
-    margin: 0 auto;
-    display: table;
-  }
-
-  div {
-    margin: 0;
-    text-align: center;
-  }
-
-  #alpha{
-    margin-top: 20px;
-    width: 480px;
-    height: 75px;
-    line-height: 75px;
-  }
-
-  #bravo{
-    width: 480px;
-    height: 150px;
-    line-height: 150px;
-  }
-
-  #charlie{
-    width: 480px;
-    height: 125px;
-    line-height: 125px;
-  }
-
-  #delta{
-    width: 480px;
-    height: 125px;
-    line-height: 125px;
-  }
-
-  #echo{
-    display: inline-block;
-    width: 240px;
-    height: 250px;
-    line-height: 250px;
-  }
-
-  #foxtrot{
-    display: inline-block;
-    width: 240px;
-    height: 250px;
-    line-height: 250px;
-  }
-
-  #golf{
-    display: inline-block;
-    width: 240px;
-    height: 250px;
-    line-height: 250px;
-  }
-
-  #hotel{
-    display: inline-block;
-    width: 240px;
-    height: 250px;
-    line-height: 250px;
-  }
-
-  #india{
-    width: 480px;
-    height: 80px;
-    line-height: 80px;
-    margin-bottom: 20px;
-  }
-}
-
-/* Mobile view */
 
 section {
-  overflow: auto;
-  margin: 0 auto;
-  display: table;
-}
-
-div {
-  margin: 0;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #alpha{
-  margin-top: 20px;
-  width: 480px;
   height: 75px;
   line-height: 75px;
 }
 
 #bravo{
-  width: 480px;
   height: 150px;
   line-height: 150px;
 }
 
 #charlie{
-  width: 480px;
   height: 125px;
   line-height: 125px;
 }
 
 #delta{
-  width: 480px;
   height: 125px;
   line-height: 125px;
 }
 
 #echo{
-  display: inline-block;
-  width: 240px;
+  width: 50%;
   height: 250px;
   line-height: 250px;
 }
 
 #foxtrot{
-  display: inline-block;
-  width: 240px;
+  width: 50%;
   height: 250px;
   line-height: 250px;
+    
 }
-
 #golf{
-  display: inline-block;
-  width: 240px;
+  width: 50%;
   height: 250px;
   line-height: 250px;
 }
 
 #hotel{
-  display: inline-block;
-  width: 240px;
+  width: 50%;
   height: 250px;
   line-height: 250px;
 }
 
 #india{
-  width: 480px;
   height: 80px;
   line-height: 80px;
-  margin-bottom: 20px;
 }
 
+
+  
+@media( min-width: 960px ) {
+    
+  section {
+    display: grid;
+  }
+        
+  div {
+    height: auto;
+    margin: 0;
+  }
+
+  #alpha{
+    width: 960px;
+    height: 100px;
+    line-height: 100px;
+  }
+
+  #bravo{
+    width: 200px;
+    height: 600px;
+    line-height: 600px;
+  }
+
+  #charlie{
+    width: 380px;
+    height: 200px;
+    line-height: 200px;
+  }
+
+  #delta{
+    width: 380px;
+    height: 200px;
+    line-height: 200px;
+  }
+
+  #echo{
+    width: 190px;
+    height: 250px;
+    line-height: 250px;
+  }
+
+  #foxtrot{
+    width: 190px;
+    height: 250px;
+    line-height: 250px;
+  }
+
+  #golf{
+    width: 190px;
+    height: 250px;
+    line-height: 250px;
+  }
+
+  #hotel{
+    width: 190px;
+    height: 250px;
+    line-height: 250px;
+  }
+
+  #india{
+    width: 760px;
+    height: 150px;
+    line-height: 150px;
+  }
+}
+
+/* div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  width: 88vw;
+  height: 64vh;
+}
+
+div:nth-child(n+5):nth-child(-n+8) {
+  width: 50%;
+}
+
+@media(min-width: 768px) {
+  section {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    width: 97vw;
+    height: 70vw;
+  }
+}
+ */
