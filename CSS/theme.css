@@ -1,7 +1,122 @@
-body {
-  background: #eee;
+#alpha {
+  background-color: rgb(255, 255, 255);
 }
 
-div {
-  background: ghostwhite;
+#bravo {
+  background-color: rgb(0, 0, 0);
+}
+
+#charlie {
+  background: rgb(212, 212, 212);
+}
+
+#delta {
+  background: rgb(37, 37, 37);
+}
+
+#echo {
+  background-color: rgb(202, 202, 202);
+}
+
+#foxtrot {
+  background-color: rgb(70, 70, 70);
+}
+
+#golf {
+  background-color: rgb(165, 165, 165);
+}
+
+#hotel {
+  background-color: rgb(80, 80, 80);
+}
+
+#india {
+  background-color: rgb(109, 109, 109);
+}
+
+@media( min-width: 960px ) {
+  
+  #alpha {
+    background-color: blue;
+    border: 1px solid white;
+  }
+  
+  #bravo {
+    background-color: blue;
+    border: 1px solid white;
+  }
+  
+  #charlie {
+    background-color: blue;
+    border: 1px solid white;
+  }
+  
+  #delta {
+    background-color: blue;
+    border: 1px solid white;
+  }
+  
+  #echo {
+    background-color: blue;
+    border: 1px solid white;
+  }
+  
+  #foxtrot {
+    background-color: blue;
+    border: 1px solid white;
+  }
+  
+  #golf {
+    background-color: blue;
+    border: 1px solid white;
+  }
+  
+  #hotel {
+    background-color: blue;
+    border: 1px solid white;
+  }
+  
+  #india {
+    background-color:blue;
+    border: 1px solid white;
+  }
+}
+
+@media( max-width: 770px ) {
+
+  #alpha {
+    background-color: rgb(255, 0, 0);
+  }
+
+  #bravo {
+    background-color: rgb(255, 94, 0);
+  }
+
+  #charlie {
+    background-color: rgb(255, 230, 0);
+  }
+
+  #delta {
+    background-color: rgb(217, 255, 0);
+  }
+
+  #echo {
+    background-color: rgb(250, 67, 67);
+  }
+
+  #foxtrot {
+    background-color: rgb(255, 0, 170)
+  }
+
+  #golf {
+    background-color: rgb(111, 0, 255);
+  }
+
+  #hotel {
+    background-color: rgb(247, 0, 255);
+  }
+
+  #india {
+    background-color: rgb(255, 0, 0);
+  }
 }

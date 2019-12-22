@@ -1,5 +1,57 @@
-/* 
-Hello there.
+#alpha {
+  height: 10%;
+}
 
-GENERAL KANOBI
-*/
+#india {
+  height: 10%;
+}
+
+div:nth-child(2) {
+  height: 20%;
+}
+
+div:nth-child(n+3):nth-child(-n+4) {
+  height: 15%
+}
+
+div:nth-child(n+5):nth-child(-n+8) {
+  height: 40%;
+}
+
+@media(min-width: 770px) {
+
+  #alpha {
+    height: 100%;
+    width: 100%;
+    grid-column: auto / span 5;
+    grid-row: 1;
+  }
+
+  #india {
+    height: 100%;
+    width: 100%;
+    grid-column: auto / span 4;
+    grid-row: auto / span 1;
+  }
+
+  div:nth-child(2) {
+    height: 100%;
+    width: 100%;
+    grid-column: 1;
+    grid-row: 2 /span 3;
+  }
+
+  div:nth-child(n+3):nth-child(-n+4) {
+    height: 100%;
+    width: 100%;
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+  }
+
+  div:nth-child(n+5):nth-child(-n+8) {
+    height: 100%;
+    width: 100%;
+    grid-column: auto / span 1;
+    grid-row: auto / span 1;
+  }
+}

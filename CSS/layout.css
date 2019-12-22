@@ -1,170 +1,159 @@
-
-section {
-  overflow: auto;
-  margin: 0 auto;
-  display: table;
+div {
+  height: auto;
+  margin: 0;
+  width: 100%;
 }
 
-div {
-  margin: 0;
-  text-align: center;
+section {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #alpha{
-  margin-top: 20px;
-  width: 480px;
   height: 75px;
   line-height: 75px;
-  background-color: aqua;
 }
 
 #bravo{
-  width: 480px;
   height: 150px;
   line-height: 150px;
-  background-color: aquamarine;
 }
 
 #charlie{
-  width: 480px;
   height: 125px;
   line-height: 125px;
-  background-color: rgb(127, 214, 255);
 }
 
 #delta{
-  width: 480px;
   height: 125px;
   line-height: 125px;
-  background-color: blue;
 }
 
 #echo{
-  display: inline-block;
-  width: 240px;
+  width: 50%;
   height: 250px;
   line-height: 250px;
-  background-color: rgb(138, 248, 248);
 }
 
 #foxtrot{
-  display: inline-block;
-  width: 240px;
+  width: 50%;
   height: 250px;
   line-height: 250px;
-  background-color: rgb(1, 173, 173);
+    
 }
-
 #golf{
-  display: inline-block;
-  width: 240px;
+  width: 50%;
   height: 250px;
   line-height: 250px;
-  background-color: rgb(17, 224, 128);
 }
 
 #hotel{
-  display: inline-block;
-  width: 240px;
+  width: 50%;
   height: 250px;
   line-height: 250px;
-  background-color: rgba(0, 255, 255, 0.253);
 }
 
 #india{
-  width: 480px;
   height: 80px;
   line-height: 80px;
-  margin-bottom: 20px;
-  background-color: rgba(0, 136, 255, 0.575);
 }
 
 
-/* On Desktop, float the divs in the section and center them */
-@media(min-width: 960px) {
-
+  
+@media( min-width: 960px ) {
+    
   section {
-    display:table;
+    display: grid;
   }
-
+        
   div {
+    height: auto;
     margin: 0;
   }
 
   #alpha{
-    margin-top: 20px;
     width: 960px;
     height: 100px;
     line-height: 100px;
-    background-color: red;
   }
-  
+
   #bravo{
     width: 200px;
     height: 600px;
     line-height: 600px;
-    background-color: maroon;
-    float: left;
   }
-  
+
   #charlie{
     width: 380px;
     height: 200px;
     line-height: 200px;
-    background-color: rgb(247, 86, 86);
-    float: left;
   }
-  
+
   #delta{
     width: 380px;
     height: 200px;
     line-height: 200px;
-    background-color: rgb(172, 51, 51);
-    float: left;
   }
-  
+
   #echo{
-    display: inline-block;
     width: 190px;
     height: 250px;
     line-height: 250px;
-    background-color: rgb(236, 15, 118);
-    float: left;
   }
-  
+
   #foxtrot{
-    display: inline-block;
     width: 190px;
     height: 250px;
     line-height: 250px;
-    background-color: hotpink;
-    float: left;
   }
-  
+
   #golf{
-    display: inline-block;
     width: 190px;
     height: 250px;
     line-height: 250px;
-    background-color: rgb(255, 136, 0);
-    float: left;
   }
-  
+
   #hotel{
-    display: inline-block;
     width: 190px;
     height: 250px;
     line-height: 250px;
-    background-color: rgb(251, 255, 0);
-    float: left;
   }
-  
+
   #india{
     width: 760px;
     height: 150px;
     line-height: 150px;
-    margin-bottom: 20px;
-    background-color: rgb(255, 230, 0);
-    float: left;
   }
 }
+
+/* div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  width: 88vw;
+  height: 64vh;
+}
+
+div:nth-child(n+5):nth-child(-n+8) {
+  width: 50%;
+}
+
+@media(min-width: 768px) {
+  section {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    width: 97vw;
+    height: 70vw;
+  }
+}
+ */
